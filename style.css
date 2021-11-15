@@ -26,7 +26,7 @@ header {
 }
 
 main {
-  height: 65vh;
+  height: 55vh;
   color: #eee;
   display: flex;
   align-items: center;
@@ -111,10 +111,43 @@ h1 {
 }
 
 .message {
-  margin-bottom: 8rem;
-  height: 3rem;
+  height: 0.5rem;
+  margin: 0 0 8rem 4rem;
 }
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+a {
+  color: #eee;
+  text-decoration: none;
+}
+
+@media (max-width: 34em) {
+  html {
+    font-size: 8px;
+  }
+  header {
+    height: 42vh;
+  }
+  h1 {
+    margin: 25px 0;
+  }
+  .number {
+    width: 11rem;
+    height: 10rem;
+    margin-top: 10px;
+  }
+  .guess {
+    width: 18rem;
+  }
+  main {
+    height: 40rem;
+  }
 }
